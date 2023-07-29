@@ -1,0 +1,65 @@
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menuItems a {
+  margin-left: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.searchBar {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.footerRight a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
